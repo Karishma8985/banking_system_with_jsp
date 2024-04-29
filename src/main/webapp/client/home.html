@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Banking System</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<style>
+	body{
+		width: 100%;
+		overflow-x: hidden;
+	}
+</style>
+</head>
+<body>
+	<div class="container-xl-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand text-success" href="#">Welcome To Banking</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#service">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">Gallery</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Us</a>
+      </li>     
+    </ul>
+    <ul class="navbar-nav float-right">
+		<li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="create_account.html">Register</a>
+      </li>
+	</ul>
+  </div>
+</nav>
+			</div>
+		</div>
+	</div>
+
+<div class="container-xl-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src=".././img/home.jpg" class="d-block w-100" alt="..."  style="height: 600px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-danger">First slide label</h5>
+        <p class="text-danger">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src=".././img/home1.jpg" class="d-block w-100" alt="..." style="height: 600px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-danger">Second slide label</h5>
+        <p class="text-danger">Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src=".././img/home2.jpg" class="d-block w-100" alt="..."  style="height: 600px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-danger">Third slide label</h5>
+        <p class="text-danger">Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row my-5">
+		<div class="col-md-12">
+			<h3 class="text-center text-warning" id="about">About <span class="text-danger">Us</span></h3>
+		</div>
+	</div>
+	<div class="row my-5">
+		<div class="col-md-5">
+			<img src=".././img/home.jpg" class="img-fluid">
+		</div>
+		<div class="offset-md-2 col-md-5">
+			<p class="text-justify">A bank is a financial institution that accepts deposits from the public and creates
+				 a demand deposit while simultaneously making loans.
+				 Lending activities can be directly performed by the bank or indirectly 
+				 through capital markets.
+				 Banking in its modern sense evolved in the fourteenth century in the prosperous cities 
+				 of Renaissance Italy but in many ways functioned as a continuation of ideas and concepts of 
+				 credit and lending that had their roots in the ancient world. 
+				 </p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row my-5">
+		<div class="col-md-12">
+			<h3 class="text-center text-warning" id="service">Servi<span class="text-danger">ces</span></h3>
+		</div>
+	</div>
+	<div class="row my-5">
+		<div class="col-md-4">
+			<h1 class="text-center display-1 text-warning"><ion-icon name="home-outline"></ion-icon></h1>
+			<h4 class="text-center text-secondary">Home Loan</h4>
+			<p class="text-justify">
+				A home loan is a secured loan that is obtained to purchase a property by offering
+				 it as collateral. Home loans offer high-value funding at economical interest 
+				 rates and for long tenures. They are repaid through EMIs. After repayment, 
+				 the property's title is transferred back to the borrower.
+			</p>
+		</div>
+		<div class="col-md-4">
+			<h1 class="text-center display-1 text-primary"><ion-icon name="card-outline"></ion-icon></h1>
+			<h4 class="text-center text-secondary">Deposit Money</h4>
+			<p class="text-justify">
+				A deposit is the act of placing cash (or cash equivalent) with some entity, most commonly with a financial institution, such as a bank.
+
+             The deposit is a credit for the party (individual or organization) who placed it,
+              and it may be taken back (withdrawn) in accordance with the terms agreed at time 
+              of deposit, transferred to some other party, or used for a purchase at a later date.
+			</p>
+		</div>
+		<div class="col-md-4">
+			<h1 class="text-center display-1 text-danger"><ion-icon name="calculator-outline"></ion-icon></h1>
+			<h4 class="text-center text-secondary">ATM</h4>
+			<p class="text-justify">
+			An automated teller machine (ATM) is an electronic telecommunications device that enables 
+			customers of financial institutions to perform financial transactions, such as cash
+			 withdrawals, deposits, funds transfers, balance inquiries or account information 
+			 inquiries, at any time and without the need for direct interaction with bank staff.
+			
+			</p>
+		</div>
+		
+	</div>
+</div>
+
+<div class="container">
+	<div class="row my-5">
+		<div class="col-md-12">
+			<h3 class="text-center text-warning" id="gallery">Gall<span class="text-danger">ery</span></h3>
+		</div>
+	</div>
+	<div class="row my-5">
+		<div class="col-md-12">
+			<div class="card-deck">
+  <div class="card">
+    <img src=".././img/gallery.jpg" class="card-img-top" alt="..." style="height: 200px;">
+    
+  </div>
+  <div class="card">
+    <img src=".././img/gallery1.jpg" class="card-img-top" alt="..." style="height: 200px;">
+  </div>
+  <div class="card">
+    <img src=".././img/gallery2.jpg" class="card-img-top" alt="..." style="height: 200px;">
+  </div>
+  <div class="card">
+    <img src=".././img/gallery3.jpg" class="card-img-top" alt="..." style="height: 200px;">
+  </div>
+</div>
+
+<div class="card-deck my-4">
+  <div class="card">
+    <img src=".././img/gallery4.jpg" class="card-img-top" alt="..." style="height: 200px;">
+    
+  </div>
+  <div class="card">
+    <img src=".././img/gallery5.jpg" class="card-img-top" alt="..." style="height: 200px;">
+  </div>
+  <div class="card">
+    <img src=".././img/gallery6.jpg" class="card-img-top" alt="..." style="height: 200px;">
+  </div>
+  <div class="card">
+    <img src=".././img/gallery7.jpg" class="card-img-top" alt="..." style="height: 200px;">
+  </div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row my-5">
+		<div class="col-md-12">
+			<h3 class="text-center text-warning" id="contact">Contact <span class="text-danger"> Us</span></h3>
+		</div>
+	</div>
+	<div class="row my-5">
+		<div class="col-md-7">
+			<form>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" placeholder="Enter Your Name Here">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter Your Email Here">
+  </div>
+  <div class="form-group">
+    <label for="mobile_number">Mobile_Number</label>
+    <input type="number" class="form-control" id="mobile_number" placeholder="Enter Your Mobile Number Here">
+  </div>
+  
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea class="form-control" id="message" rows="3"></textarea>
+  </div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+		</div>
+		<div class="col-md-5">
+			<h5 class="text-center text-success display-4"><ion-icon name="mail-outline"></ion-icon></h5>
+			<p class="text-center text-dark lead">Email Address</p>
+			<p class="text-center text-info">banking@gmail.com</p>
+			<br>
+			<h5 class="text-center text-success display-4"><ion-icon name="phone-portrait-outline"></ion-icon></h5>
+			<p class="text-center text-dark lead">Contact Number</p>
+			<p class="text-center text-info">+91 0000000000</p>	
+		</div>
+	</div>
+</div>
+<div class="container-xl-fluid">
+<div class="row bg-light py-4">
+	<div class="col-md-3 offset-md-1">
+		<p class="text-justify">
+			A bank is a financial institution that accepts deposits from the public and creates
+				 a demand deposit while simultaneously making loans.
+				 Lending activities can be directly performed by the bank or indirectly 
+				 through capital markets. 
+		</p>
+	</div>
+	<div class="col-md-3 offset-md-1">
+		<ul class="nav flex-column text-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#about">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#service">Services</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#gallery">Gallery</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#contact">Contact Us</a>
+  </li>
+</ul>
+	</div>
+	<div class="col-md-3 offset-md-1">
+		<h5 class="text-center text-success display-4"><ion-icon name="location-outline"></ion-icon></h5>
+			<p class="text-center text-dark lead">Address</p>
+			<p class="text-center text-info">A-123 Kailash nagar <br>
+			 Maninagar,Ahmedabad <br>
+			 Gujarat
+			</p>
+	</div>
+</div>	
+<div class="row bg-light py-2">
+	<div class="col-md-12">
+		<p class="text-center">
+		All Rights Reserved @2023 made by <a href="#"> Karishma Patel</a> 
+		</p>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
